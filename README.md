@@ -1,4 +1,4 @@
-# This project is a Windows-based application built using C++ that allows users to start, stop, and reset a chronometer. 
+# This project is a Windows-based application built using C++ that creates a chronometer without the chrono library. 
 The program calculates the time elapsed using CPU cycle counts, offering high accuracy for time measurement.  
 The application interacts with the Windows registry to retrieve the CPU frequency (in Hz),  
 and uses Windows API functions for creating a GUI with buttons to control the chronometer
@@ -19,7 +19,7 @@ To compile and run the project:
 5.   Run the executable on a Windows system.
 
 
-# Ce projet est une application Windows développée en C++ qui permet de démarrer, d'arrêter et de réinitialiser un chronomètre.
+# Ce projet est une application Windows construite en C++ qui crée un chronomètre sans la bibliothèque chrono.
 Le programme calcule le temps écoulé en fonction du nombre de cycles CPU, offrant ainsi une grande précision de mesure du temps.
 L'application interagit avec le registre Windows pour récupérer la fréquence CPU (en Hz) et utilise les fonctions de l'API Windows pour créer une interface graphique avec des boutons permettant de contrôler le chronomètre.
 
